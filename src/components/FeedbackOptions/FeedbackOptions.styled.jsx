@@ -11,13 +11,18 @@ export const OptionsList = styled.ul`
 export const OptionItem = styled.li``;
 
 export const OptionButton = styled.button`
-  cursor: pointer;
-  border-radius: 5px;
-  
-  background-color: white;
+  padding: 5px 10px;
 
-  &:hover,
-  &:focus {
-    background-color: silver;
+  width: 100px;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  background-color: silver;
+
+  &:active {
+    transform: translateY(2px);
   }
 `;
